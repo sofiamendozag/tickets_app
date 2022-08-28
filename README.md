@@ -12,7 +12,7 @@ La clase Ticket contiene los atributos y métodos de un ticket. Los atributos qu
 La clase Main contiene un único método main, el cual ofrece un menú con distintas opciones: añadir productos a un ticket, generar el ticket y mostrar el coste desglosado, mostrar los resultados de la prueba del ejemplo y detener la ejecución.
 
 ## Casos de prueba
-Pruebas unitarias realizadas de manera automática utilizando JUnit para probar el comportamiento de la mayor parte de los métodos de las clases Product y Ticket de forma aislada. 
+En esta ocasión, se decide realizar pruebas unitarias para probar el comportamiento de la mayor parte de los métodos de las clases Product y Ticket de forma aislada. Para poder realizar estas pruebas de manera automática se utiliza la librería JUnit.
 En la clase Product, se comprueba que los métodos getters y setters funcionan correctamente. 
 En la clase Ticket, se prueba el método getProduct y el método addProduct. Dentro de esta última prueba se comprueba el funcionamiento de distintos aspectos:
 - Probar que los productos se añaden al ticket, para lo cual se comprueba que el número de productos que se han añadido es correcto
